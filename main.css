@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px auto;
+
+}
+
+.banner {
+    width: 1081px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(./Imgs/Banner\ Topo.png);
+}
+
+.banner h1 {
+    padding-top: 7rem;
+    padding-left: 30px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+}
+
+header .container {
+    margin-top: 3rem;
+    width: 1081px;
+    height: 69px;
+    border-radius: 20px;
+    background: #f7f7f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container img {
+    width: 200px;
+    display: block;
+    margin-top: -2rem;
+
+}
+
+header .container li {
+    list-style: none;
+    display: inline;
+
+}
+
+header .container li a {
+    margin-left: 51px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+
+header .container li a:hover {
+    color: #6AC8FE;
+
+}
+
+
+main {
+    margin-top: 2rem;
+    width: 100%;
+    height: 800px;
+
+}
+
+
+
+.section-container-1{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.section-container-tecnology {
+    width: auto;
+    width: 1081px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-container-2{
+    width: 100%;
+    height: 100%;
+    background-color: #6AC8FE;
+}
+
+.section-container-enter{
+    width: auto;
+    width: 1081px;
+    background-color: #6AC8FE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    width: 1081px;
+    position: absolute;
+    margin-top: 44px;
+}
+
+.section-container-tecnology h2 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #6ac8fe;
+    display: inline;
+    margin-left: 19px;
+}
+
+.section-container-enter h2 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #c64eff;
+    display: inline;
+    margin-left: 19px;
+}
+
+
+
+
+.articles {
+    width: 100%;
+    display: flex;
+}
+
+.articles article {
+    width: 360px;
+
+    justify-content: space-between;
+}
+
+.articles img {
+    width: 244px;
+    margin-top: 57px;
+    display: flex;
+}
+
+.articles time p {
+    margin-top: 16px;
+    font-size: 12px;
+    letter-spacing: 0.23em;
+    text-align: left;
+    color: #f3f5fb;
+    opacity: 0.6;
+}
+
+.section-container-tecnology hr {
+    width: 32px;
+    height: 0px;
+    border: 2px solid #6AC8FE;
+}
+
+.section-container-enter hr {
+    width: 32px;
+    height: 0px;
+    border: 2px solid #C64EFF;
+}
+
+.articles article h3 {
+    width: 90%;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-article-tec {
+    margin-top: 1rem;
+    width: 140px;
+    height: 42px;
+
+}
+
+.btn-article-tec a {
+
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 14px;
+    background: #6ac8fe;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+
+}
+
+.btn-article-enter {
+    margin-top: 1rem;
+    width: 140px;
+    height: 42px;
+
+}
+
+.btn-article-enter a {
+
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 14px;
+    background: #C64EFF;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*article{
+    width: 1081px;
+    height: 200px;
+    position: absolute;
+    margin-top: 44px;
+    background-color: azure;
+}*/
